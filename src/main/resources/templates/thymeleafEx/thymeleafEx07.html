@@ -3,8 +3,10 @@
       xmlns:layout=http://www.ultraq.net.nz/thymeleaf/layout1
       layout:decorate="~{layouts/layout1}">
 
+<div th:replace="fragments/header::header"></div>
 <div layout:fragment="content">
     본문 영역
 </div>
+<div th:replace="fragments/footer::footer"></div>
 
 </html>
