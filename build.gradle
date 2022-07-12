@@ -47,7 +47,8 @@ dependencies {
     //querydsl 추가
     implementation 'com.querydsl:querydsl-jpa'
     implementation 'com.querydsl:querydsl-apt'
-//querydsl 추가 끝
+    //querydsl 추가 끝
+    implementation group: 'nz.net.ultraq.thymeleaf', name: 'thymeleaf-layout-dialect', version: '2.5.1'
 }
 
 tasks.named('test') {
